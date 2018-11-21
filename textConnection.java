@@ -21,7 +21,7 @@ public class textConnection extends HttpServlet
         String loginUser = "irteam";
         String loginPasswd = "Goodboy12!";
 //        String loginUrl = "jdbc:mysql://localhost:13306/test";
-        String loginUrl="jdbc:mysql://192.168.0.103:13306/test";
+        String loginUrl="jdbc:mysql://133.186.132.184:13306/test";
         response.setContentType("text/html;charset=UTF-8");    // Response mime type
 
         // Output stream to STDOUT
@@ -29,7 +29,7 @@ public class textConnection extends HttpServlet
 
         out.println("<HTML><HEAD><TITLE>클라우드 운영팀 목록</TITLE></HEAD>");
         out.println("<BODY><H1>클라우드 운영팀 현황</H1>");
-	out.println("<br/><br/><H1>New Version of Java Servlet</H1>");
+	//out.println("<br/><br/><H1>New Version of Java Servlet</H1>");
         // Load the mm.MySQL driver
         try
            {
